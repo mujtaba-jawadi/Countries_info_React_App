@@ -1,0 +1,171 @@
+[
+   {
+     "id": 1,
+     "countryName": "Afghanistan",
+     "capital": "Kabul",
+     "population": 38928346,
+     "interestingFact": "Afghanistan is known as the 'Graveyard of Empires' due to its resistance to invasions."
+   },
+   {
+     "id": 2,
+     "countryName": "Australia",
+     "capital": "Canberra",
+     "population": 25499884,
+     "interestingFact": "Australia is home to more kangaroos than people."
+   },
+   {
+     "id": 3,
+     "countryName": "Brazil",
+     "capital": "Brasília",
+     "population": 212559417,
+     "interestingFact": "Brazil is the only country in South America that speaks Portuguese."
+   },
+   {
+     "id": 4,
+     "countryName": "Canada",
+     "capital": "Ottawa",
+     "population": 37742154,
+     "interestingFact": "Canada has the longest coastline of any country in the world."
+   },
+   {
+     "id": 5,
+     "countryName": "China",
+     "capital": "Beijing",
+     "population": 1439323776,
+     "interestingFact": "China is the most populous country in the world."
+   },
+   {
+     "id": 6,
+     "countryName": "Egypt",
+     "capital": "Cairo",
+     "population": 102334404,
+     "interestingFact": "Egypt is home to the last surviving ancient wonder, the Great Pyramid of Giza."
+   },
+   {
+     "id": 7,
+     "countryName": "France",
+     "capital": "Paris",
+     "population": 65273511,
+     "interestingFact": "France is the most visited country in the world."
+   },
+   {
+     "id": 8,
+     "countryName": "Germany",
+     "capital": "Berlin",
+     "population": 83783942,
+     "interestingFact": "Germany is home to the world's first printed book."
+   },
+   {
+     "id": 9,
+     "countryName": "India",
+     "capital": "New Delhi",
+     "population": 1380004385,
+     "interestingFact": "India is the largest democracy in the world."
+   },
+   {
+     "id": 10,
+     "countryName": "Italy",
+     "capital": "Rome",
+     "population": 60461826,
+     "interestingFact": "Rome, Italy is home to the Vatican City, the smallest country in the world."
+   },
+   {
+     "id": 11,
+     "countryName": "Japan",
+     "capital": "Tokyo",
+     "population": 126476461,
+     "interestingFact": "Japan is home to more than 6,800 islands."
+   },
+   {
+     "id": 12,
+     "countryName": "Kenya",
+     "capital": "Nairobi",
+     "population": 53771296,
+     "interestingFact": "Kenya is known for its rich wildlife and being the origin of the safari."
+   },
+   {
+     "id": 13,
+     "countryName": "Mexico",
+     "capital": "Mexico City",
+     "population": 128932753,
+     "interestingFact": "Mexico introduced chocolate, corn, and chilies to the world."
+   },
+   {
+     "id": 14,
+     "countryName": "Netherlands",
+     "capital": "Amsterdam",
+     "population": 17134872,
+     "interestingFact": "The Netherlands is famous for its windmills, tulips, and cycling."
+   },
+   {
+     "id": 15,
+     "countryName": "New Zealand",
+     "capital": "Wellington",
+     "population": 4822233,
+     "interestingFact": "New Zealand was the first country to allow women to vote."
+   },
+   {
+     "id": 16,
+     "countryName": "Nigeria",
+     "capital": "Abuja",
+     "population": 206139589,
+     "interestingFact": "Nigeria is the most populous country in Africa."
+   },
+   {
+     "id": 17,
+     "countryName": "Pakistan",
+     "capital": "Islamabad",
+     "population": 220892340,
+     "interestingFact": "Pakistan has the second highest peak in the world, K2."
+   },
+   {
+     "id": 18,
+     "countryName": "Russia",
+     "capital": "Moscow",
+     "population": 145934462,
+     "interestingFact": "Russia is the largest country in the world by land area."
+   },
+   {
+     "id": 19,
+     "countryName": "Saudi Arabia",
+     "capital": "Riyadh",
+     "population": 34813871,
+     "interestingFact": "Saudi Arabia is the largest country in the world without a river."
+   },
+   {
+     "id": 20,
+     "countryName": "South Africa",
+     "capital": "Pretoria (executive), Bloemfontein (judicial), Cape Town (legislative)",
+     "population": 59308690,
+     "interestingFact": "South Africa has three capital cities."
+   },
+   {
+     "id": 21,
+     "countryName": "South Korea",
+     "capital": "Seoul",
+     "population": 51269185,
+     "interestingFact": "South Korea is home to the world's fastest internet speeds."
+   },
+   {
+     "id": 22,
+     "countryName": "Spain",
+     "capital": "Madrid",
+     "population": 46754778,
+     "interestingFact": "Spain is known for its cultural festival 'La Tomatina' where participants throw tomatoes at each other."
+   },
+   {
+     "id": 23,
+     "countryName": "Sweden",
+     "capital": "Stockholm",
+     "population": 10099265,
+     "interestingFact": "Sweden is one of the world’s leading nations in sustainable energy."
+   },
+   {
+     "id": 24,
+     "countryName": "Turkey",
+     "capital": "Ankara",
+     "population": 84339067,
+     "interestingFact": "Turkey is home to the ancient city of Troy."
+   }
+   ]
+ 

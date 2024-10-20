@@ -1,106 +1,133 @@
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-a{
-   text-decoration: none;
+a {
+  text-decoration: none;
 }
-.container{
-   max-width: 70rem;
-   background-color: #3cb371; 
-   margin: auto;
+.container {
+  max-width: 70rem;
+  background-color: #3cb371;
+  margin: auto;
 }
-.grid{
-   display: grid;
-   align-items: center;
-   padding: 1rem;
-   background-color: #08b116;
+.grid {
+  display: grid;
+  align-items: center;
+  padding: 1rem;
+  background-color: #08b116;
 }
-.grid-col-two{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   align-items: end;
-  
+.grid-col-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
 }
-.navbar-grid{
-   grid-template-columns: 0.5fr 1fr;
+.navbar-grid {
+  grid-template-columns: 0.5fr 1fr;
 }
-.logo-text{
-   color: #f0d5b2;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.logo-text {
+  color: #f0d5b2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-nav ul{
-   display: flex;
-   justify-content: flex-end;
-   gap: 3rem;
-   list-style: none;
-   padding: 1rem;
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+  list-style: none;
+  padding: 1rem;
 
-   & li a{
-      color: #f0d5b2;
+  & li a {
+    color: #f0d5b2;
 
-      &:hover{
-         color:rgb(7, 7, 70);
-         text-decoration: underline;
-      }
-   }
-   
- 
+    &:hover {
+      color: rgb(7, 7, 70);
+      text-decoration: underline;
+    }
+  }
 }
-.hero-section .container{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   align-items: start;
-   margin: 0 auto ;
-   padding: 5rem 1rem 2rem  ;
-   gap: 3rem;
+.hero-section .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  margin: 0 auto;
+  padding: 5rem 1rem 2rem;
+  gap: 3rem;
 }
-.hero-content{
-   padding-top: 3rem
+.hero-content {
+  padding-top: 3rem;
 }
-.paragraph{
-   margin: 2rem 0;
+.paragraph {
+  margin: 2rem 0;
 }
 
-
-
-.banner-image{
-   display: flex;
-   width: 100%;
-   
+.banner-image {
+  display: flex;
+  width: 100%;
 }
-.container-title{
-   padding: 2rem;
-   text-align: center;
+.container-title {
+  padding: 2rem;
+  text-align: center;
+  color: #f0d5b2;
 }
-.container-card{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.card{
-   max-width: 20rem;
-   background-color: #58824d;
-   border-left: 2px solid rgb(7, 7, 70);
-   border-bottom: 2px solid rgb(7, 7, 70);
-   border-top: 2px solid #f0d5b2;
-   border-right: 2px solid #f0d5b2;
-   border-radius: 5px;
-   margin: 3px;
-   box-shadow: rgba(30,35,38, 0.3) 0 0 28px;
-   margin-bottom: 2rem;
-   
+.card {
+  max-width: 20rem;
+  background-color: #58824d;
+  border-left: 2px solid rgb(7, 7, 70);
+  border-bottom: 2px solid rgb(7, 7, 70);
+  border-top: 2px solid #f0d5b2;
+  border-right: 2px solid #f0d5b2;
+  border-radius: 5px;
+  margin: 3px;
+  box-shadow: rgba(30, 35, 38, 0.3) 0 0 28px;
+  margin-bottom: 2rem;
 
-   .card-title{
-   color:rgb(7, 7, 70)
-
-   }
+  .card-title {
+    color: #070746;
+  }
 }
-.card .container{
-   background-color: #58824d;
-   color: #f0d5b2;
-   padding: 2rem;
+.card .container {
+  background-color: #58824d;
+  color: #f0d5b2;
+  padding: 2rem;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.form-control {
+  width: 40%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
 
+  &:focus {
+    border-color: #007bff;
+  }
+}
+.form-btn {
+  padding: 10px 20px;
+  background-color: #070746;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width: 10%;
+
+  &:hover {
+    background-color: #f0d5b2;
+    color: #070746;
+  }
 }

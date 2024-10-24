@@ -1,27 +1,38 @@
-import { SiHp } from "react-icons/si";
+import { NavLink } from "react-router-dom";
 import "../../App.css";
 
 export const CountryCard = ({ currentCountry }) => {
   const { flags, name, population, capital, region, currencies } =
     currentCountry;
+
+  const divStyle = {
+    backgroundImage: `url(${flags.svg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+  };
   return (
     <section className="container">
       <div className="container-card">
         <div className="card">
           <div className="container">
-            <h3 className="card-title">{name.common}</h3>
-            <img src={flags.svg} alt={flags.alt} className="country-flag" />
+            <h3 className="card-title">
+              {name.common.length > 15
+                ? name.common.slice(0, 15) + "...."
+                : name.common}
+            </h3>
+            <div className="country-flag" style={divStyle}></div>
             <p>
               <span className="card-description">
                 <b>Capital:</b>{" "}
               </span>
-              {capital}
+              {capital[0]}
             </p>
             <p>
               <span className="card-description">
                 <b>Population:</b>{" "}
               </span>
-              {population}
+              {population.toLocaleString()}
             </p>
             <p>
               <span className="card-description">
@@ -29,16 +40,27 @@ export const CountryCard = ({ currentCountry }) => {
               </span>
               {region}
             </p>
-            <p>
+            {/* <p>
               <span className="card-description">
-                <b>Currency:</b>{" "}
+                <b>Currency Name:</b>{" "}
               </span>
               {currencies &&
                 Object.keys(currencies).length > 0 &&
-                `${currencies[Object.keys(currencies)[0]].name}
-                (${currencies[Object.keys(currencies)[0]].symbol})`
+                `${currencies[Object.keys(currencies)[0]].name}`
                }
             </p>
+            <p>
+              <span className="card-description">
+                <b>Currency Symbol:</b>{" "}
+              </span>
+              {currencies &&
+                Object.keys(currencies).length > 0 &&
+                `(${currencies[Object.keys(currencies)[0]].symbol})`
+               }
+            </p> */}
+            <NavLink to={`/country/${name.common}`}>
+              <button>Read More</button>
+            </NavLink>
           </div>
         </div>
       </div>

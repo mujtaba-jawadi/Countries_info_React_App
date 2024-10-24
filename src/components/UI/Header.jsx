@@ -19,7 +19,7 @@ export const Header = () => {
                 <NavLink to="/about">About</NavLink>
               </li>
               <li>
-                <NavLink to="/country">Country</NavLink>
+                <NavLink to="/country">Countries</NavLink>
               </li>
               <li>
                 <NavLink to="/contact">Contact</NavLink>

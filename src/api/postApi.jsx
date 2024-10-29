@@ -14,6 +14,6 @@ export const getCountryData = () => {
 //GET Method for getting Individual Country Data
 export const getIndividualCountryData = (name) => {
   return api.get(
-    `/name/${name}?fields=name,capital,currencies,region,population,languages,flags,borders,subregion`
+    `/name/${name}?fields=name,capital,currencies,region,population,languages,flags,borders,subregion,tld,timezones,continents,maps,latlng`
   );
 };

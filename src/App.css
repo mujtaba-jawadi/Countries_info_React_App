@@ -7,6 +7,9 @@
 }
 a {
   text-decoration: none;
+    &:visited{
+    color: none;
+  }
 }
 .container {
   max-width: 70rem;
@@ -98,6 +101,7 @@ nav ul {
   color: #f0d5b2;
   padding: 2rem;
 }
+
 .container form {
   display: flex;
   flex-direction: column;
@@ -116,15 +120,14 @@ nav ul {
     border-color: #007bff;
   }
 }
-.form-btn {
+button {
   padding: 10px 20px;
   background-color: #070746;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 20px;
-  width: 10%;
+  margin: 20px auto;
 
   &:hover {
     background-color: #f0d5b2;
@@ -178,6 +181,7 @@ nav ul {
 .country-details-content {
   align-items: flex-start;
   color: #0d0d9e;
+  line-height: 1.8;
   & h1 {
     color: #070746;
   }

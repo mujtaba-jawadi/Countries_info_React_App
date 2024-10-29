@@ -1,4 +1,5 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 export const HeroSection = () => {
   return (
@@ -16,9 +17,12 @@ export const HeroSection = () => {
             landmarks that define their cultures. Every country has a story
             waiting to be discovered.&quot;
           </p>
+          <NavLink to="/country">
+
           <button>
             Start Exploring <FaLongArrowAltRight />
           </button>
+          </NavLink>
         </div>
         <div className="hero-image">
           <img

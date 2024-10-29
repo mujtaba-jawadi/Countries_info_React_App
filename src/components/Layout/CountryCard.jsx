@@ -30,12 +30,6 @@ export const CountryCard = ({ currentCountry }) => {
             </p>
             <p>
               <span className="card-description">
-                <b>Population:</b>{" "}
-              </span>
-              {population.toLocaleString()}
-            </p>
-            <p>
-              <span className="card-description">
                 <b>Region:</b>{" "}
               </span>
               {region}

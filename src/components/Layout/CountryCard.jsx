@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import "../../App.css";
 
 export const CountryCard = ({ currentCountry }) => {
-  const { flags, name, population, capital, region, currencies } =
+  const { flags, name, capital, region } =
     currentCountry;
 
   const divStyle = {
@@ -34,24 +34,6 @@ export const CountryCard = ({ currentCountry }) => {
               </span>
               {region}
             </p>
-            {/* <p>
-              <span className="card-description">
-                <b>Currency Name:</b>{" "}
-              </span>
-              {currencies &&
-                Object.keys(currencies).length > 0 &&
-                `${currencies[Object.keys(currencies)[0]].name}`
-               }
-            </p>
-            <p>
-              <span className="card-description">
-                <b>Currency Symbol:</b>{" "}
-              </span>
-              {currencies &&
-                Object.keys(currencies).length > 0 &&
-                `(${currencies[Object.keys(currencies)[0]].symbol})`
-               }
-            </p> */}
             <NavLink to={`/country/${name.common}`}>
               <button>Read More</button>
             </NavLink>
